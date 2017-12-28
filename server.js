@@ -4,7 +4,7 @@ const open = require('open')
 const compression = require('compression')
 const serveStatic = require('serve-static')
 
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 3000
 const app = express()
 
 app.use(compression())
