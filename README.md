@@ -9,7 +9,7 @@
 - [Troubleshooting on windows](#troubleshooting-on-windows)
 - [Available Scripts](#available-scripts)
 
-## Screenshots
+## <a name="screenshots"></a>Screenshots
 
 ### Running App
 
