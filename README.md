@@ -1,7 +1,9 @@
 # Olist Front end test
 
-> Live app demo: [Personal website](https://olist-test-frontend.herokuapp.com/)
-> Live storybook demo: [Personal website](https://olist-test-frontend.herokuapp.com/storybook)
+> [Live app demo:](https://olist-test-frontend.herokuapp.com/)
+
+> [Live storybook demo:](https://olist-test-frontend.herokuapp.com/storybook)
+
 
 > Author: [Personal website](https://pauloregis.herokuapp.com/)
 
