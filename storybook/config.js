@@ -1,5 +1,6 @@
 import { configure } from '@storybook/react'
 import { setOptions } from '@storybook/addon-options'
+import 'utils/styledGlogal'
 
 const req = require.context('../src', true, /\.story\.js$/)
 
