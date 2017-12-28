@@ -23,3 +23,25 @@ describe('getColor', () => {
     expect(getColor(3, 3, grayLight3)).to.be.equal(green)
   })
 })
+
+describe('getRuleColor', () => {
+  it('getRuleColor should be a function', () => {
+    expect(getRuleColor).to.be.a('function')
+  })
+
+  it('getRuleColor(true, true) should return green', () => {
+    expect(getRuleColor(true, true)).to.be.equal(green)
+  })
+
+  it('getRuleColor(false, true) should return grayLight3', () => {
+    expect(getRuleColor(false, true)).to.be.equal(grayLight3)
+  })
+
+  it('getRuleColor(false, false) should return grayLight3', () => {
+    expect(getRuleColor(false, false)).to.be.equal(grayLight3)
+  })
+
+  it('getRuleColor(true, false) should return redPastel', () => {
+    expect(getRuleColor(true, false)).to.be.equal(redPastel)
+  })
+})

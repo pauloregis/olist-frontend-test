@@ -1,4 +1,4 @@
-import { green, redPastel, yellow } from 'utils/colors'
+import { grayLight3, green, redPastel, yellow } from 'utils/colors'
 
 export const getColor = (currentStep, totalSteps, defaultColor) => {
   const currentTotalRatio = currentStep / totalSteps
@@ -13,3 +13,11 @@ export const getColor = (currentStep, totalSteps, defaultColor) => {
         : green
   )
 }
+
+export const getRuleColor = (startedField, isCorrect) => (
+  startedField
+    ? isCorrect
+    ? green
+    : redPastel
+    : grayLight3
+)
