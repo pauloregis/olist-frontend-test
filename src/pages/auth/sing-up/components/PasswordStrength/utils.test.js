@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { getColor } from './utils'
+import { getColor, getRuleColor } from './utils'
 import { grayLight3, redPastel, yellow, green } from 'utils/colors'
 
 describe('getColor', () => {
